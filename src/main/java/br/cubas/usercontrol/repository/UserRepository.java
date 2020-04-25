@@ -16,6 +16,7 @@ public class UserRepository {
 	
 	List<User> users = new ArrayList<>();
 
+	// teste
 	UserRepository() {
 
 	    PasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
